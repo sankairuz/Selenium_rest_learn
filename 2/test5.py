@@ -10,7 +10,6 @@ try:
 
     # Ваш код, который заполняет обязательные поля
 
-    browser.find_element(By.CSS_SELECTOR, '.first_block .first').send_keys('Ilya')
     browser.find_element(By.CSS_SELECTOR, '.first_block .second').send_keys('Panin')
     browser.find_element(By.CSS_SELECTOR, '.first_block .third').send_keys('sa@gmail.com')
     # Отправляем заполненную форму
