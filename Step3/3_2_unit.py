@@ -4,7 +4,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-3
+# объявляем класс, содержащий функции
 class TestAbs(unittest.TestCase):
     def test1(self):
         try:
